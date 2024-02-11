@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+[ -f ./app/.uninstall ] &&
+    ./app/.uninstall
+
+./.ungit
+./.prep
+./.deps
+./.link

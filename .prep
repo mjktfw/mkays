@@ -1,0 +1,7 @@
+#! /bin/bash
+set -e
+
+[ ! -f "./app/user.conf" ] &&
+    cp "./app/user.conf.default" "./app/user.conf"
+
+exit 0
