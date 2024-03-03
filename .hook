@@ -1,4 +1,0 @@
-#!/bin/bash
-set -e
-
-ln -sf ../../deploy ./.git/hooks/post-merge
